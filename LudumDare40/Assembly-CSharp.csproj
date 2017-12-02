@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AustinsScripts\Austinisbeautiful.cs" />
+     <Compile Include="Assets\FunderScripts\Rotator.cs" />
      <Compile Include="Assets\WillsScripts\PlayerMaster.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
