@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
 
 	public int health;
 
+
+
 	void Update()
 	{
 
@@ -22,4 +24,8 @@ public class Enemy : MonoBehaviour
 			transform.position = Vector2.MoveTowards (transform.position, target.position, speed * Time.deltaTime);
 		}
 	}
+
+
+
+
 }

@@ -1,26 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.AI;
 public class Asteroid : MonoBehaviour 
 {
 
-	public float timer;
-	public int newTarget;
-	public float speed;
-	public NavMeshAgent nav;
-	public Vector2 target;
-
-
-
-
-
-
-
-
-
-
-	/*private float speed;
+	private float speed;
 	private Rigidbody2D myBody;
 
 	void Awake()
@@ -29,7 +14,9 @@ public class Asteroid : MonoBehaviour
 	}
 	void Update () 
 	{
-		myBody.velocity = new Vector2 (.00005f, .000005f);
+		myBody.velocity = new Vector2 (1f, 1f);
 		transform.position= new Vector2(Random.Range(-10f,10f),Random.Range(-10f,10f));
-	}*/
+	}
+
+	//FIX THE SPEED OF THE ASTEROID ASAP
 }
