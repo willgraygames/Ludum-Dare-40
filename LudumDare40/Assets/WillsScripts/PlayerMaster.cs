@@ -37,14 +37,14 @@ public class PlayerMaster : MonoBehaviour {
 		float rotHorizontal = Input.GetAxis ("RightH");
 		float rotVertical = Input.GetAxis ("RightV");
 		Vector2 movement = new Vector2 (horizontal, vertical);
-		Vector3 rotationality = new Vector3 (rotHorizontal, rotVertical, 0);
-		Quaternion.LookRotation (rotationality);
+		Vector2 rotationality = new Vector3 (rotHorizontal, rotVertical);
+		//NEED ROTATION SHIT FUCKERS
 		rb2d.AddForce (movement * moveSpeed);
 		rb2d.velocity = Vector2.ClampMagnitude (rb2d.velocity, maxSpeed);
 	}
 
 	void HandleLaser () {
-		RaycastHit2D hit = Physics2D.Raycast (transform.position, Vector2.up);
+		RaycastHit2D hit = Physics2D.Raycast (transform.position, Vector2.right);
 		myLine.enabled = true;
 		myLine.SetPosition (0, transform.position);
 		if (hit.collider != null) {
