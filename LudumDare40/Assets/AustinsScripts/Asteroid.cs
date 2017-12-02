@@ -5,18 +5,15 @@ using UnityEngine.AI;
 public class Asteroid : MonoBehaviour 
 {
 
-	private float speed;
-	private Rigidbody2D myBody;
+	public float speed;
 
-	void Awake()
-	{
-		myBody = GetComponent<Rigidbody2D> ();
-	}
+
 	void Update () 
 	{
-		myBody.velocity = new Vector2 (1f, 1f);
-		transform.position= new Vector2(Random.Range(-10f,10f),Random.Range(-10f,10f));
+
+		//transform.position= new Vector2(Random.Range(-10f,10f),Random.Range(-10f,10f));
+		transform.position=new Vector2(Mathf.PingPong(Random.Range(-10f,10),Random.Range(-10f,10f)),Mathf.PingPong(Random.Range(-10f,10f),Random.Range(-10f,10f)))* speed;
 	}
 
-	//FIX THE SPEED OF THE ASTEROID ASAP
+
 }

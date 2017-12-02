@@ -54,6 +54,8 @@
      <Compile Include="Assets\AustinsScripts\Asteroid.cs" />
      <Compile Include="Assets\AustinsScripts\Austinisbeautiful.cs" />
      <Compile Include="Assets\AustinsScripts\Enemy.cs" />
+     <Compile Include="Assets\AustinsScripts\Gem.cs" />
+     <Compile Include="Assets\AustinsScripts\Player.cs" />
      <Compile Include="Assets\WillsScripts\PlayerMaster.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
