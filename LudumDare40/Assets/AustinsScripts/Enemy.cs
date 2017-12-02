@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
 	private float minDistance = 1f;
 	private float range;
 
+	public int health;
+
 	void Update()
 	{
 
@@ -16,7 +18,7 @@ public class Enemy : MonoBehaviour
 		range = Vector2.Distance (transform.position, target.position);
 		if (range > minDistance)
 		{
-			Debug.Log (range);
+			
 			transform.position = Vector2.MoveTowards (transform.position, target.position, speed * Time.deltaTime);
 		}
 	}

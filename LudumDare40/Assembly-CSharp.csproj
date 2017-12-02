@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AustinsScripts\Asteroid.cs" />
      <Compile Include="Assets\AustinsScripts\Austinisbeautiful.cs" />
      <Compile Include="Assets\AustinsScripts\Enemy.cs" />
      <Compile Include="Assets\WillsScripts\PlayerMaster.cs" />
