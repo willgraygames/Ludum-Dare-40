@@ -51,7 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Austins_Scripts\Asteroid.cs" />
+     <Compile Include="Assets\Austins_Scripts\Enemy.cs" />
+     <Compile Include="Assets\Austins_Scripts\Gem.cs" />
+     <Compile Include="Assets\Austins_Scripts\Player.cs" />
      <Compile Include="Assets\FunderScripts\Rotator.cs" />
+     <Compile Include="Assets\WillsScripts\LaserController.cs" />
      <Compile Include="Assets\WillsScripts\PlayerMaster.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -151,7 +151,12 @@
 -define:UNITY_EDITOR_OSX
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
+'Assets/Austins_Scripts/Asteroid.cs'
+'Assets/Austins_Scripts/Enemy.cs'
+'Assets/Austins_Scripts/Gem.cs'
+'Assets/Austins_Scripts/Player.cs'
 'Assets/FunderScripts/Rotator.cs'
+'Assets/WillsScripts/LaserController.cs'
 'Assets/WillsScripts/PlayerMaster.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
